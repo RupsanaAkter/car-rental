@@ -46,6 +46,8 @@ import Blog from "../pages/Blog/Blog";
 import BlogDetails from "../pages/BlogDetails/BlogDetails";
 import Carlisting from "../pages/Carlisting/Carlisting";
 import CarDetails from "../pages/CarDetails/CarDetails";
+import Contact from "../pages/Contact/Contact";
+import NotFound from "../pages/NotFound/NotFound";
 // import Home from "../pages/Home";
 // import About from "../pages/About";
 // import CarListing from "../pages/CarListing";
@@ -65,8 +67,8 @@ const Routers = () => {
       <Route path="/cars/:slug" element={<CarDetails />} />
       <Route path="/blogs" element={<Blog />} />
       <Route path="/blogs/:slug" element={<BlogDetails />} />
-      {/* <Route path="/contact" element={<Contact />} /> */}
-      {/* <Route path="*" element={<NotFound />} /> */}
+      <Route path="/contact" element={<Contact />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 };
