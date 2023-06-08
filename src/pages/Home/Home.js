@@ -9,6 +9,7 @@ import ServiceList from '../../components/UI/ServiceList/ServiceList';
 import carData from '../../data/Cardata/Cardata'
 import Caritem from '../../components/UI/Caritem/Caritem';
 import DriverSection from '../../components/UI/DriverSection/DriverSection';
+import Testimonial from '../../components/UI/Testimonial/Testimonial';
 
 const Home = () => {
     return (
@@ -67,7 +68,7 @@ const Home = () => {
          <DriverSection /> 
   
         {/* =========== testimonial section =========== */}
-        {/* <section>
+        <section>
           <Container>
             <Row>
               <Col lg="12" className="mb-4 text-center">
@@ -78,7 +79,7 @@ const Home = () => {
               <Testimonial />
             </Row>
           </Container>
-        </section> */}
+        </section> 
   
         {/* =============== blog section =========== */}
         {/* <section>
