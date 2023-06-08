@@ -1,13 +1,13 @@
 import React from 'react';
-// import Herosider from '../../components/UI/Herosider/Herosider';
-// import { Col, Container, Row } from 'reactstrap';
+import Herosider from '../../components/UI/Herosider/Herosider';
+import { Col, Container, Row } from 'reactstrap';
 import Helmet from '../../components/Helmet/Helmet';
 
 const Home = () => {
     return (
         <Helmet title="Home">
           {/* ============= hero section ===========  */}
-          {/* <section className="p-0 hero__slider-section">
+            {/* <section className="p-0 hero__slider-section">
             <Herosider />
     
             <div className="hero__form">
@@ -25,7 +25,7 @@ const Home = () => {
                 </Row>
               </Container>
             </div>
-          </section>
+          </section>  */}
           {/* =========== about section ================ */}
           {/* <AboutSection /> */}
           {/* ========== services section ============  */}
