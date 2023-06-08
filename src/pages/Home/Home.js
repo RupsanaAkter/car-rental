@@ -6,7 +6,8 @@ import Helmet from '../../components/Helmet/Helmet';
 import Findcar from '../../components/UI/Findcar/Findcar';
 import Aboutsection from '../../components/UI/Aboutsection/Aboutsection';
 import ServiceList from '../../components/UI/ServiceList/ServiceList';
-
+import carData from '../../data/Cardata/Cardata'
+import Caritem from '../../components/UI/Caritem/Caritem';
 
 const Home = () => {
     return (
@@ -47,7 +48,7 @@ const Home = () => {
           </Container>
         </section> 
         {/* =========== car offer section ============= */}
-        {/* <section>
+         <section>
           <Container>
             <Row>
               <Col lg="12" className="text-center mb-5">
@@ -56,11 +57,11 @@ const Home = () => {
               </Col>
   
               {carData.slice(0, 6).map((item) => (
-                <CarItem item={item} key={item.id} />
+                <Caritem item={item} key={item.id} />
               ))}
             </Row>
           </Container>
-        </section> */}
+        </section> 
         {/* =========== become a driver section ============ */}
         {/* <BecomeDriverSection /> */}
   
