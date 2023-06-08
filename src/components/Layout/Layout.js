@@ -1,10 +1,9 @@
 import React from 'react';
+import Header from '../Header/Header';
 
 import Footer from '../Footer/Footer';
-import { Fragment } from 'react';
-import Header from '../Header/Header';
 import Routers from '../../Routers/Routers';
-
+import { Fragment } from 'react';
 
 const Layout = () => {
     return (

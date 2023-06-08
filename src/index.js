@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -9,11 +9,11 @@ import "slick-carousel/slick/slick-theme.css";
 
 import { BrowserRouter as Router } from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
     <Router>
       <App />
     </Router>
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById("root")
 );
