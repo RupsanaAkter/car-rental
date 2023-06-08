@@ -8,6 +8,7 @@ import Aboutsection from '../../components/UI/Aboutsection/Aboutsection';
 import ServiceList from '../../components/UI/ServiceList/ServiceList';
 import carData from '../../data/Cardata/Cardata'
 import Caritem from '../../components/UI/Caritem/Caritem';
+import DriverSection from '../../components/UI/DriverSection/DriverSection';
 
 const Home = () => {
     return (
@@ -63,7 +64,7 @@ const Home = () => {
           </Container>
         </section> 
         {/* =========== become a driver section ============ */}
-        {/* <BecomeDriverSection /> */}
+         <DriverSection /> 
   
         {/* =========== testimonial section =========== */}
         {/* <section>
